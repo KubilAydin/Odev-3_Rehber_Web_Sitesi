@@ -6,11 +6,11 @@
 * Özel cardlar oluşturuldu. (Responsive değil.)
 * Footer Oluşturuldu.
 * Responsive form oluşturuldu.
-* 
+ 
   
 
 ## Github page ile yayınlandı.
-### [Bu link ile ulaşabilirsiniz](https://kubilaydin.github.io/Odev-2_Kisisel_Blog/)
+### [Bu link ile ulaşabilirsiniz](https://kubilaydin.github.io/Odev-3_Rehber_Web_Sitesi/)
  
 ## Özel Yapılan İçerikler Şunlardır..
 * Navbar oluşturuldu.
