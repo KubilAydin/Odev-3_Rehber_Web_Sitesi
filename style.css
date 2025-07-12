@@ -1,0 +1,198 @@
+    html {
+        background-color: #EEEEEE;
+    }
+    * {
+        margin: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: large;
+    }
+    #home {
+        width: 100%;
+        text-align: center;
+    }
+    article {
+        text-align: center;
+    }
+    .title {
+        padding: 25px;
+        background-color: #222831;
+        color: #ffff;
+    }
+    .service {
+        font-size: 25px;
+        color: #FFFF;
+    }
+    .business {
+        font-size: 20px;
+        padding: 25px;
+        color: #ffff;
+        background-color: #78B9B5;
+    }
+    .links {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 15px;
+        background-color: #393E46;
+    }
+    .links a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        margin: 0 20px 0 20px;
+        color: #FFFF;
+    }
+    .lists {
+        padding: 15px;
+        font-style: normal;
+        background-color: #1B3C53;
+    }
+    .list-title {
+        margin-bottom: 2px;
+        color: #FFFF;
+    }
+    .lists ol {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        color: #ffff;
+    }
+    .lists ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style-type: armenian;
+        font-size: 20px;
+        color: #FFFF;
+    }
+    .lists ul li {
+        width: 20%;
+        margin: 0;
+        padding: 0px;
+    }
+    .description {
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffff;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding: 30px;
+        background-color: #EEEEEE;
+    }
+    .information {
+        height: 900px;
+        background-color: #1B3C53;
+    }
+    .coms {
+        height: 900px;
+        background-color: #1B3C53;
+    }
+    .titletext {
+        color: #fff;
+        background-color: #1B3C53;
+        padding: 25px 10px 10px 10px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 20%;
+        border-radius: 25px 25px 10px 10px;
+    }
+    .card img {
+        background-position: center;
+        height: 250px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .imgposition {
+        text-align: center;
+    }
+    .img-fluid {
+        width: 100%;
+        height: 100%;
+    }
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    .cardbody {
+        text-align: center;
+        height: 150px;
+    }
+    .cardtitle {
+        padding: 5px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .cardtext {
+        padding: 15px;
+    }
+    .row {
+        height: 60px;
+    }
+    input[type=text], input[type=email], select, textarea {
+    width: 95%;
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+    }
+    input[type=submit] {
+        float: center;
+        width: 33%;
+        padding: 12px 50px 12px 50px;
+        margin-top: 12px;
+        font-size: 16px;
+    }
+    label {
+        padding: 12px 0 12px 0;
+        display: inline-block;
+    }
+    .col-25 {
+        float: left;
+        color: #ffff;
+        width: 25%;
+    }
+    .col-75 {
+        margin-top: 6px;
+        float: left;
+        color: #FFFF;
+        width: 75%;
+    }
+    .info {        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 900px;
+        font-size: 35px;
+        font-weight: 800;
+        background-color: #1B3C53;
+    }
+    .info p {
+
+        color: #ffff;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 50px;
+        width: 100%;
+        background-color: #393E46;
+        color: white;
+        text-align: center
+    }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>İletişim</title>
+</head>
+<body>
+    <section id="home">
+        <div class="title">
+            <h2>Kubilay Aydın</h2>
+    </div>
+        <div class="links">
+            <a href="index.html">Anasayfa</a>
+            <a href="iletisim.html" target="_blank">İletişim</a>
+            <a href="servisler.html" target="_blank">Servisler</a>
+            <a href="hakkinda.html" target="_blank">Hakkında</a> 
+        </div>
+        <div class="titletext">
+        <p>İletişim bilgilerim aşağıdaki listelerdeki gibidir</p>
+        </div>
+    </div>
+    </section>
+    <!-- Form Bölümü -->
+    <article class="coms">
+        <div class="lists">
+            <h2 class="list-title">İletişim Bilgilerim</h2>
+            <ul>
+                <li style="width: 33%;">Mimar Sinan Mah. Şair Ruhi Sokak Aydın Ap. 30/4</li>
+                <li> Telefon: +90 531 253 4552</li>
+                <li style="width: 33%;"> Mail: kubilay.aydin.aydin@gmail.com</li>
+            </ul>
+            <div class="description">
+                <p>Aşağıdakı formu doldurarak sizinle iletişime geçelim.</p>
+            </div>
+            <div class="communication">
+                <form action="submit.html">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">Adınız:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" placeholder="Adınız:">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Soyadınız:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" placeholder="Soyadınız:">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="mail">Mailiniz:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="email" id="mail" placeholder="Mailiniz:">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="message">Mesaj:</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea name="message" id="message" placeholder="Mesajı buraya giriniz."></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Gönder">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </article>
+    <!-- Footer -->
+    <footer class="footer">
+        Designed by Kubilay Aydın
+    </footer>     
+</body>
+</html>
